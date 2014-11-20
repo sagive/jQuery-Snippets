@@ -10,6 +10,6 @@ A collection of jQuery and javascript snippets for easy access and keeping stuff
 * [Connect on Google+](https://plus.google.com/u/0/b/114581642255532461858/114581642255532461858/posts)
 
 
-# My Site
+## My Site
 * [Sagive SEO (english)](https://en.sagive.co.il)
 * [Sagive SEO (hebrew)](https://www.sagive.co.il)
