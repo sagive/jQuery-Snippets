@@ -1,10 +1,12 @@
 jQuery(document).ready(function($) {
 
 	// SHOW STUFF ON CLICK
-	$('.clickshow').click(function() {
-		var hidethis = '.' + $(this).attr('data-hidethis'); $(hidethis).slideUp(); 
-		var showthis = '.' + $(this).attr('data-showthis'); $(showthis).slideToggle(); 
-	});	
+	if($('.clickshow').length > 0) {
+		$('.clickshow').click(function() {
+			var hidethis = '.' + $(this).attr('data-hidethis'); $(hidethis).slideUp(); 
+			var showthis = '.' + $(this).attr('data-showthis'); $(showthis).slideToggle(); 
+		});	
+	}
 	
 	/*
 	HTML EXAMPLE:
